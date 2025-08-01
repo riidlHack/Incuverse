@@ -91,9 +91,11 @@ export const HeroSection = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="glass-panel hover-glow font-heading text-lg px-8 py-4 bg-neon-green/20 border border-neon-green/30 text-neon-green hover:bg-neon-green hover:text-background transition-all duration-300">
-            Register Now
-          </Button>
+          <a href="https://unstop.com/o/cYvIijH?lb=Qt7tWF7u">
+            <Button size="lg" className="glass-panel hover-glow font-heading text-lg px-8 py-4 bg-neon-green/20 border border-neon-green/30 text-neon-green hover:bg-neon-green hover:text-background transition-all duration-300">
+              Register Now
+            </Button>
+          </a>
           <a href="https://chat.whatsapp.com/HC2f8aY7J9J1lYAuqzGdaX?mode=ac_t">
           <Button size="lg" variant="outline" className="glass-panel hover-glow font-heading text-lg px-8 py-4 border-neon-cyan/30 text-neon-cyan hover:bg-neon-cyan/10 hover-glow:color-[#FAF9F6]">
             Join riidl community
